@@ -24,7 +24,7 @@ input {
   border-radius: 0.2rem;
   color: white;
   border-color: white;
-  border-style: solid;
+  border-style: solid; 
   background-color: rgb(144, 186, 233);
   height: 1.5rem;
   border-width: 0.15rem;
@@ -39,7 +39,7 @@ input::placeholder {
   border-radius: 0.2rem;
   color: white;
   border-color: white;
-  border-style: solid;
+  border-style: solid; 
   height: 1.5rem;
   border-width: 0.15rem;
   text-align: center;
@@ -60,18 +60,17 @@ button {
   border-radius: 0.2rem;
   color: white;
   border-color: white;
-  background-color: rgb(144, 186, 233);
+  background-color: rgb(144, 186, 233) ;
   border-style: solid;
   width: 15%;
   height: 1.5rem;
   border-width: 0.15rem;
   font-size: 1.2rem;
   align-content: center;
+  
 }
 
 button:hover {
   background-color: white;
   color: rgb(144, 186, 233);
 }
-
-/*# sourceMappingURL=App.css.map */
