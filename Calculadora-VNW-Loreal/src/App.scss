@@ -3,6 +3,7 @@ html {
   justify-content: center;
   height: 100%;
   background-color: rgb(144, 186, 233);
+  align-items: center;
 }
 
 h1 {
@@ -73,4 +74,11 @@ button {
 button:hover {
   background-color: white;
   color: rgb(144, 186, 233);
+}
+
+@media (max-width: 500px) {
+
+  .calculadora {
+    width: 20rem;
+  }
 }
